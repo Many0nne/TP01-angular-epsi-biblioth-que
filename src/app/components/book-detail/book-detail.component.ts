@@ -10,6 +10,7 @@ import { HighlightDirective } from '../../directives/highlight.directive';
   standalone: true,
   imports: [CommonModule, HighlightDirective],
   templateUrl: 'book-detail.component.html',
+  styleUrls: ['book-detail.component.css']
 })
 export class BookDetailComponent implements OnInit {
   book!: Book;

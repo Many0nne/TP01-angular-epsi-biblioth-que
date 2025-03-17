@@ -23,7 +23,7 @@
 **Solutions**: J'ai configuré le bouton 
 
 ### Problème #9: Erreur dans la console
-**Solutions**: n'ayant pas fait les todos dans l'ordre, je n'ai pas eu ce problème en plus angular est capable de gérer la valeur undefined puisque ?. est égale à .
+**Solutions**: j'ai ajouter un conditionel qui n'affiche la template que lorsque le livre est chargé.
 
 ### Problème #10: Directive non appliquée
 **Solutions**: J'ai créer une directive que j'ai appliquée sur les éléments

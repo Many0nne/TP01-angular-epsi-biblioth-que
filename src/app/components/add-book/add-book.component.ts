@@ -9,6 +9,7 @@ import { BookService } from '../../services/book.service';
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule],
   templateUrl: 'add-book.component.html',
+  styleUrls: ['add-book.component.css']
 })
 export class AddBookComponent implements OnInit {
   bookForm!: FormGroup;

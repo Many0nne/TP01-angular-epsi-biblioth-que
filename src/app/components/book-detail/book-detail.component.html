@@ -1,4 +1,4 @@
-<div class="book-detail-container">
+<div class="book-detail-container" *ngIf="book">
   <div class="book-card">
     <!-- TODO 9 ✅ : Dans la console on voit cette erreur : main.ts:5 ERROR TypeError: Cannot read properties of undefined (reading 'title')
      En realité on affiche le titre du livre avant qu'il ne soit défini. Fix le bug -->
