@@ -41,7 +41,7 @@
 **Solutions**: J'ai ajouter des alertes
 
 ### Problème #15: Erreur d'affichage du titre
-**Solutions**: Mise en place de routerLink
+**Solutions**: Ils étaient correctement affichés mais j'ai formater au cas où.
 
 ### Problème #16: Directive incomplète
 **Solutions**: J'ai réparé la directive 
